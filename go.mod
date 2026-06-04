@@ -1,4 +1,4 @@
-module github.com/imfing/hextra-starter-template
+module github.com/why-there/moon-blog
 
 go 1.26
 

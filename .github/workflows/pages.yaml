@@ -58,7 +58,6 @@ jobs:
           hugo \
             --gc --minify \
             --baseURL "https://why-there.github.io/moon-blog/"
-            #  --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
