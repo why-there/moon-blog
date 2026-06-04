@@ -37,7 +37,12 @@ menu:
 params:
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
+    logo:
+      path: images/Avatar.png
+      link: /
+      width: 40
+      height: 40
 
   footer:
     displayCopyright: true
