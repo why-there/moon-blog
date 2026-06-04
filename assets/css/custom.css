@@ -1,0 +1,5 @@
+/* 导航栏头像圆形裁剪 */
+a[href="/"] img[src*="Avatar"] {
+  border-radius: 50%;
+  object-fit: cover;
+}
